@@ -1,0 +1,58 @@
+.container-header {
+    height: 53px;
+    width: 566px;
+    padding: 0 16px 0 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(239, 243, 244);
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+}
+
+.container-header .header-title {
+    width: 518px;
+}
+
+.header-title .header-title-text {
+    height: 24px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.container-header .header-top-tweet {
+    width: 32px;
+    height: 53px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header-top-tweet .icon-top-tweet {
+    width: 40px;
+    height: 40px;
+    margin-right: calc(-10px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-top-tweet .icon-star {
+    width: 22px;
+    height: 22px;
+    margin: auto;
+    color: rgba(29, 161, 242, 1.00);
+    fill: currentColor;
+}
+
+.r-13gxpu9 {
+    color: rgba(29, 161, 242, 1.00);
+}
+
+.icon-top-tweet:hover {
+    cursor: pointer;
+    background-color: rgba(29, 161, 242, 0.1);
+    border-radius: 50%;
+}

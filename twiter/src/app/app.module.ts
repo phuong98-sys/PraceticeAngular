@@ -1,22 +1,23 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './main/layout/header/header.component';
-import { LeftMenuComponent } from './main/layout/left-menu/left-menu.component';
 import { HomeComponent } from './main/content/home/home.component';
+import { LeftMenuComponent } from './main/layout/left-menu/left-menu.component';
+import { SearchBoxComponent } from './main/layout/right-topic/search-box/search-box.component';
+import { NewTweetComponent } from './main/content/home/new-tweet/new-tweet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    LeftMenuComponent,
-    HomeComponent
+    HomeComponent, 
+    LeftMenuComponent, SearchBoxComponent, NewTweetComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
