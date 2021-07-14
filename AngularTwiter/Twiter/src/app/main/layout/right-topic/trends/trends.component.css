@@ -1,0 +1,161 @@
+/* common */
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+    /* white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis;  */
+}
+
+.hover-box {
+    border-radius: 50%;
+}
+
+.hover-box:hover {
+    background-color: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+    color: rgb(29, 161, 242);
+}
+
+.style-icon {
+    fill: currentColor;
+    width: 1.25em;
+    height: 1.25em;
+    width: 18.75px;
+    height: 18.75px;
+    color: rgb(83, 100, 113);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.style-icon-setting {
+    fill: currentColor;
+    color: rgb(29, 161, 242);
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.border-radius-avatar {
+    border-radius: 50%;
+}
+
+
+/* common */
+
+.space-box {
+    min-width: 54px;
+    min-height: 66px;
+}
+
+.container-trend {
+    width: 348px;
+    border: 1px solid;
+    height: inherit;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    background-color: rgb(247, 249, 249);
+    /* border-color: rgb(247, 249, 249); */
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container-trend .header-title-trend {
+    width: calc(100% - 32px);
+    height: 24px;
+    border-bottom: 1px solid rgb(239, 243, 244);
+    padding: 12px 16px;
+    position: relative;
+}
+
+.header-title-trend .container-icon-setting {
+    /* min-height: 20px; */
+    width: 22px;
+    height: 22px;
+    margin-left: 20px;
+    position: absolute;
+    top: 12px;
+    right: 16px;
+}
+
+.container-icon-setting .icon-setting-box {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+.container-trend .container-content-trend {
+    width: 100%;
+    height: fit-content;
+}
+
+.container-content-trend .content-list-trend {
+    width: calc(100% - 32px);
+    height: fit-content;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgb(239, 243, 244);
+}
+
+.content-list-trend .content-trend-item {
+    width: 100%;
+    height: fit-content;
+}
+
+.content-trend-item .content-trend-item-header {
+    width: 100%;
+    height: 16px;
+    display: flex;
+    position: relative;
+}
+
+.content-trend-item-header .btn-show-detail {
+    /* min-height: 20px; */
+    height: 20px;
+    margin-left: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.container-icon-detail-box {
+    width: 34.75px;
+    height: 34.75px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+.country-name-trend,
+.name-tag-trend {
+    height: 20px;
+    padding: 2px 0 0 0;
+}
+
+.total-tweet {
+    height: 16px;
+    margin-top: 4px;
+}
+
+.container-content-trend .footer-trend {
+    width: calc(100% - 32px);
+    height: 20px;
+    padding: 16px;
+    color: #1DA1F2;
+}
