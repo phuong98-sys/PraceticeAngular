@@ -2,8 +2,8 @@
     width: 251px;
     height: 657px;
     padding: 0 12px 0 12px;
-    right: 0;
-    position: absolute;
+    position: fixed;
+    top:0;
 }
 
 .ng-menu {

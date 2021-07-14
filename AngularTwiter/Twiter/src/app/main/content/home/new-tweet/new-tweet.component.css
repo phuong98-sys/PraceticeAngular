@@ -1,11 +1,11 @@
 .create-tweet {
     width: 566px;
     height: 112px;
+    min-height: 112px;
     padding: 4px 0px;
     display: flex;
     padding: 0px 16px;
-    position: relative;
-    top: 54px;
+    min-height: 112px;
 }
 
 .create-tweet .account {
@@ -107,4 +107,11 @@
     font-size: 15px;
     font-weight: 700;
     color: #fff;
+}
+.space-box{
+    /* position: relative;
+    top:54px; */
+    min-width: 54px;
+    min-height: 54px;
+
 }

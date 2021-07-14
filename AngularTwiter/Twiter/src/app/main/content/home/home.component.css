@@ -1,35 +1,188 @@
-/* .container-content {
+/* common */
+.font-size-13{
+    font-size: 13px;
+ }
+ .font-size-15{
+    font-size: 15px;
+    /* white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis;  */
+}
+ .hover-box{
+    border-radius: 50%;
+
+}
+.hover-box:hover{
+    background-color: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+    
+}
+.style-icon{
+    fill: currentColor;
+    width: 1.25em;
+     height:1.25em;
+     width: 18.75px;
+     height: 18.75px;
+    color: rgb(83, 100, 113);
+
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.border-radius-avatar{
+    border-radius: 50%;
+ }
+/* common */
+.container-content {
     display: block;
 }
-
-.space-box {
+.space-box{
     width: 100%;
     height: 12px;
     background-color: #F7F9F9;
-} */
+}
 
+/* padding: 0 16px 0 16px; */
+.container-content .list-tweet{
+    height:100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    /* min-height: 16280px; */
+}
+.list-tweet .tweet-content{
+   width: 566px;
+   height: fit-content;
+   padding: 0 16px 0 16px;
+   background-color: khaki;
+}
+.tweet-content .tweet-title{
+    width: 100%;
+    height: 24px;
+    padding-top: 12px;
+    display: flex;
+ }
+ .tweet-title .tweet-title-icon{
+    width: 48px;
+    height: 16px;
+    margin: 0px 12px 4px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+  
+ }
+ .chat-icon{
+    color: rgb(83, 100, 113);
+    width: 16px;
+    height: 16px;
+    fill: currentcolor;
+ }
 
-/* <div class="container-content">
-    <div class="space-box"></div>
-    <div class="list-tweet">
-        <div class="tweet-content">
-            <div class="tweet-avatar"></div>
-            <div class="tweet-info">
-                <div class="tweet-info-author">
-                    <div class="name-author"></div>
-                    <div class="user-name-author"></div>
-                    <div class="date-post"></div>
-                    <div class="btn-feture"></div>
-                </div>
-                <div class="tweet-info-content">
-                    <div class="tweet-text"></div>
-                    <div class="tweet-tag"></div>
-                </div>
-            </div>
-            <div class="tweet-media">
-                <div class="tweet-media-content"></div>
-                <div class="tweet-media-feature"></div>
-            </div>
-        </div>
-    </div>
-</div> */
+ .tweet-title .tweet-title-text{
+    width: inherit;
+    height: 16px;
+    text-align: left;
+
+  
+ }
+
+ .tweet-content .tweet-avatar{
+     width: 48px;
+     height: 100%;
+     max-width: 48px;
+     margin-right: 12px;
+     background-color: black;
+ }
+ .tweet-avatar  .tweet-avatar-icon{
+    width: 48px;
+    height: 48px;
+    background-image: url(https://pbs.twimg.com/profile_images/1354081395908489230/yKaJ4kEZ_normal.jpg);
+}
+.tweet-info{
+    width: calc(100% - 60px);
+    height: 20px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.tweet-info .tweet-info-author{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    position: relative;
+}
+.tweet-info .btn-show-detail{
+    /* min-height: 20px; */
+    height: 20px;
+    margin-left: 20px;
+    position:absolute;
+    right: 0;
+
+}
+ .container-icon-detail-box{
+
+    width: 34.75px;
+    height: 34.75px;
+    position:absolute;
+    top:0;
+    right: 0;
+    margin-right: -8px;
+    margin-top: -8px;
+
+}
+.container-icon-feature-box{
+
+    width: 34.75px;
+    height: 34.75px;
+    position:absolute;
+    top:0;
+    left: 0;
+    margin-left: -8px;
+    margin-top: -8px;
+
+}
+.tweet-info-content{
+    width: 100%;
+    display: inline-block;
+}
+.tweet-info .tweet-media{
+    width: 100%;
+    height:fit-content;
+    object-fit: cover;
+    display: block;
+    flex-direction: column;
+    position: relative;
+}
+
+.tweet-media .tweet-media-content-box{
+    width: 100%;
+    height: 283.5px;
+    margin-top: 12px;
+    border:1px solid;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .tweet-media-item{
+        background-image: url(https://pbs.twimg.com/media/D4cszC2UYAAEv52?format=jpg&name=900x900);
+
+    }
+.tweet-media .tweet-media-feature{
+    width: 425px;
+    height: 20px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* background-color: lightcoral; */
+}
+.tweet-media-feature .container-feature-item{
+    width: 55.75px;
+    height: inherit;
+    position: relative;
+    /* background-color: lightcoral; */
+}
